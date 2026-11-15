@@ -95,7 +95,7 @@ Contributions are welcome! Please follow these steps:
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Contact
-Created by [Ankit Sharma](https://github.com/ankitsharma38) - feel free to contact me!
+Created by [Anash khan](https://github.com/anshu-oss) - feel free to contact me!
 
 ## Acknowledgements
 - [OpenCV](https://opencv.org/)
