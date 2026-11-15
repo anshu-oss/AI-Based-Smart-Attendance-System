@@ -1,0 +1,19 @@
+# Python environments
+venv/
+venv311/
+.env
+.env.*
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# macOS
+.DS_Store
+
+# Personal face data
+data/students/*.pkl
+
+# Generated attendance records
+data/attendance_*.xlsx
+data/
