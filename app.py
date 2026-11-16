@@ -364,7 +364,7 @@ if page == "Home":
     with c2:
         st.markdown("""
         <div class="feature-card">
-            <h3>📸 Face Recognition</h3>
+            st.subheader("📸 Face Recognition")
             <p>AI-powered student identification and verification.</p>
         </div>
         """, unsafe_allow_html=True)
@@ -372,7 +372,7 @@ if page == "Home":
     with c3:
         st.markdown("""
         <div class="feature-card">
-            <h3>👨‍🏫 Teacher Portal</h3>
+           st.subheader("👨‍🏫 Teacher Portal")
             <p>Manage students and classroom attendance.</p>
         </div>
         """, unsafe_allow_html=True)
