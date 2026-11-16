@@ -145,6 +145,15 @@ def page_title(kicker, title, subtitle=""):
 # -------------------- DESIGN --------------------
 st.markdown(
     """
+    /* Alert message visibility fix */
+[data-testid="stAlert"] {
+    color: #263247 !important;
+}
+
+[data-testid="stAlert"] p {
+    color: #263247 !important;
+    opacity: 1 !important;
+}
     <style>
     @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Archivo+Black&display=swap');
 
