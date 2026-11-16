@@ -432,7 +432,7 @@ elif page == "Features":
     with a:
         st.markdown("""
         <div class="feature-card">
-            <h3>🔐 Student Enrollment</h3>
+           st.subheader("🔐 Student Enrollment")
             <p>Register students using face recognition.</p>
         </div>
         """, unsafe_allow_html=True)
