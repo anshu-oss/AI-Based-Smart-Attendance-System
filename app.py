@@ -199,6 +199,10 @@ st.markdown(
     div[data-testid="stMetricLabel"] { color: #667895; }
     div[data-testid="stCameraInput"] { background: white; border: 1px dashed #aeb8d0; border-radius: 16px; padding: 12px; }
     [data-testid="stDataFrame"] { background: white; border-radius: 14px; }
+    [data-testid="stAlert"] p {
+    color: #263247 !important;
+    opacity: 1 !important;
+}
     </style>
     """,
     unsafe_allow_html=True,
