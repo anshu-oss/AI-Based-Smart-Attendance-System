@@ -356,7 +356,7 @@ if page == "Home":
     with c1:
         st.markdown("""
         <div class="feature-card">
-            <h3>📋 Attendance</h3>
+           st.subheader("📋 Attendance")
             <p>Manage attendance and download reports easily.</p>
         </div>
         """, unsafe_allow_html=True)
