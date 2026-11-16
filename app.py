@@ -1,5 +1,5 @@
-        photo = st.camera_input("Capture student face", key="enroll_camera")
-        if photo and st.button("Process face & enroll", type="primary", use_container_width=True):
+ photo = st.camera_input("Capture student face", key="enroll_camera")
+ if photo and st.button("Process face & enroll", type="primary", use_container_width=True):
             try:
                 rgb = image_to_rgb(photo)
                 encoding, count = extract_one_face_encoding(rgb)
