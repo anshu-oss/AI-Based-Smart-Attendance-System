@@ -285,6 +285,21 @@ div[data-testid="stCameraInput"] {
 }
 </style>
 """, unsafe_allow_html=True)
+/* Input labels and placeholders fix */
+div[data-testid="stTextInput"] label,
+div[data-testid="stSelectbox"] label {
+    color: #263247 !important;
+}
+
+div[data-testid="stTextInput"] input {
+    color: #263247 !important;
+    background-color: #ffffff !important;
+}
+
+div[data-testid="stTextInput"] input::placeholder {
+    color: #9ca3af !important;
+    opacity: 1 !important;
+}
 
 # NAVIGATION
 
