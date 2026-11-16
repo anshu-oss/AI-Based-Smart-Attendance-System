@@ -483,7 +483,7 @@ elif page == "Journey":
             <h3>{title}</h3>
             <p>{description}</p>
         </div>
-        """, unsafe_allow_html=True)
+         unsafe_allow_html=True)
 
 
 # TEACHER DASHBOARD
