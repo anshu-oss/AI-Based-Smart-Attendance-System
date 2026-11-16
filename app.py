@@ -440,7 +440,7 @@ elif page == "Features":
     with b:
         st.markdown("""
         <div class="feature-card">
-            <h3>⚡ Face Recognition</h3>
+            <h3>Face Recognition</h3>
             <p>Identify students through their registered face.</p>
         </div>
         """, unsafe_allow_html=True)
